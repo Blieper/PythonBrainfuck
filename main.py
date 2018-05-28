@@ -43,8 +43,8 @@ class engine():
 
         while ldepth > 0:
           li += 1
-          c = code[li]
           i += 1
+          c = code[li]
 
           if c == "[":
             ldepth += 1
