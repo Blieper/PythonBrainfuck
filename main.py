@@ -62,6 +62,8 @@ class engine():
 program = """
 
 """
-
+#initialise a new brainfuck engine
 engine = engine()
+#run brainfuck code on the engine
+#run(programstring, inputstring)
 engine.run(program,"")
